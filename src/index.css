@@ -1,0 +1,25 @@
+@font-face {
+    font-family:regular ;
+    src: url(./assets/fonts/mulish/Mulish-Regular.ttf);
+}
+@font-face {
+    font-family:bold ;
+    src: url(./assets/fonts/mulish/Mulish-Bold.ttf);
+}
+@font-face {
+    font-family:semibold ;
+    src: url(./assets/fonts/mulish/Mulish-SemiBold.ttf);
+}
+body{
+    font-family:regular ;  
+}
+h1{
+    font-family:bold ;
+}
+p{
+    font-size: 18px;
+}
+.content p{
+    font-size: 15px;
+    font-family:semibold ;
+ }

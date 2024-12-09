@@ -1,0 +1,44 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .wrapper img {
+    max-width: 150px;
+    height: 5rem;
+    padding: 0 15px;
+    object-fit: cover;
+  }
+  
+  .wrapper img:last-of-type {
+    padding-left: 0;
+  }
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .wrapper {
+    position: absolute;
+    display: flex;
+    margin:5rem 0;
+  }
+  
+  section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+  }
+  

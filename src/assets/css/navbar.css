@@ -1,0 +1,43 @@
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
+
+      .danger{
+        padding: 10px 23px;
+        border-radius: 3px;
+      }
+      .navbar-container {
+        background-color: #060e1b;
+        transition: background-color 0.3s ease; 
+        position: relative; 
+        width: 100%;
+        z-index: 1000; 
+      }
+      
+      .navbar-container.fixed {
+        background-color:#fff; 
+        position: fixed;  
+        top: 0; 
+        left: 0;
+        right: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+      }
+      .login{
+        color: #fff;
+        
+      }
+      .navbar-container.fixed>.login{
+        color: #000;
+      }
+      .navbar-toggler {
+        background-color: #fff;
+        border: none;
+      }
+      .emailrow{
+        margin-top: 2rem;
+      }
+      @media (max-width: 991px) and (min-width: 576px) {
+        .login {
+          color: #000; 
+        }
+      }

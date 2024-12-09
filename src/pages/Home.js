@@ -103,33 +103,33 @@ function Home() {
      {/* ----------IDC-------- */}
      <div className="bgcolr">
      <Container>
-     <Row className='heading '>
-      <Col xs={12} md={3}>
+     <Row className='heading disblock '>
+      <Col xs={12} md={3} className='fullwidth'>
      <a href="">
-     <div className="content">
+     <div className="content aligncenter">
       <img src={idc} alt="bannerimg" id="img1"/>
       <p>Hexnode is listed as a leader and a major player in IDC MarketScape UEM Vendors Assessment Reports 2024.</p>
       </div>
       </a> 
      
       </Col>
-      <Col xs={0} md={1} className="d-flex justify-content-center">
-  <div className="line"></div>
+      <Col xs={0} md={1} className="d-flex justify-content-center fullwidth">
+  <div className="line "></div>
 </Col>
-      <Col xs={12} md={3} id='bordercol'>
+      <Col xs={12} md={3} className='fullwidth' id='bordercol'>
       <a href="">
-      <div className="content">
+      <div className="content aligncenter">
       <img src={gartner} alt="bannerimg" id="img2"/>
       <p>Hexnode mentioned as a Notable Vendor in Midmarket Context: Magic Quadrant for Unified Endpoint Management tools 2022.</p>
       </div>
       </a> 
       </Col>
-      <Col xs={0} md={1} className="d-flex justify-content-center">
-  <div className="line"></div>
+      <Col xs={0} md={1} className="d-flex justify-content-center fullwidth">
+  <div className="line "></div>
 </Col>
-      <Col xs={12} md={3} >
+      <Col xs={12} md={3} className='fullwidth'>
       <a href="">
-      <div className="content" >
+      <div className="content aligncenter" >
       <img src={forester} alt="bannerimg" id="img3"/>
       <p>Forrester includes Hexnode as a Notable vendor in The Unified Endpoint Management Landscape, Q3 2023.</p>
       </div>
@@ -140,7 +140,7 @@ function Home() {
      </div>
       {/* ----------tab-------- */}
     <div className="tabframe">
-      <div className="header">
+      <div className="header " id="head">
         <h1>Specific kiosk modes for unique use cases</h1>
       </div>
       <Container >
@@ -465,9 +465,9 @@ function Home() {
             <Container>
  
     <h1 className='heading'>Sign up and try Hexnode free for 14 days!</h1>
-    <Row className='footrow' >
-    <Col xs={6} md={3}></Col>
-       <Col xs={6} md={4}>
+    <Row className='footrow' id="footrow" >
+    
+       <Col xs={6} md={7}>
        <Form>
      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
        <Form.Control className="inputbox" type="email" placeholder="Your Work Email" />
@@ -476,10 +476,10 @@ function Home() {
    </Form>
       </Col>
     
-      <Col xs={6} md={4} id="buttoncol">
+      <Col xs={6} md={5} id="buttoncol">
       <Button variant="danger" className='danger'>GET STARTED NOW!</Button>
       </Col> 
-      <Col xs={6} md={1}></Col>
+     
        </Row>
    
    <p className='footpar '>No credit cards required.

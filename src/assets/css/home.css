@@ -292,10 +292,30 @@ a:hover .arrow, a:hover .arrow1{
  .fullwidth{
     width:100%;
   }
-  .aligncenter{
+  .aligncenter,#head{
     text-align: center;
   }
   .margintopcol{
     margin-top: 1rem;
   }
+.footrow{
+  justify-content: center;
+
+}
+#img1{
+  width: 13% ;
+}
+#img2{
+  width: 15% ;
+}
+#img3{
+  width: 17% ;
+}
+}
+#footrow{
+  margin: 2rem auto 1rem auto !important;
+  max-width: 601px;
+}
+#buttoncol{
+  text-align: left;
 }

@@ -496,7 +496,7 @@ function Home() {
 <span>Terms of Use-Privacy-Cookies</span>
 </Col>
 <Col xs={6} md={6} id="textright">
-<span>Copyright © 2024 Mitsogo Inc. All Rights Reserved.</span>
+<span>Copyright © 2024 Mitsogo Inc. All Rights Reserved..</span>
 </Col>
 </Row>
 </Container>
